@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Deshmukh | AI & Software Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        
+        :root {
+            --primary: #3b82f6;
+            --accent: #a78bfa;
+            --bg-dark: #020617;
+        }
+
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg-dark); color: #f8fafc; }
+
+        .hero-gradient {
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(167, 139, 250, 0.15) 0%, transparent 50%),
+                #020617;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .glass-card {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            border-color: rgba(59, 130, 246, 0.3);
+            transform: translateY(-5px);
+        }
+
+        .metric-badge {
+            background: rgba(59, 130, 246, 0.1);
+            color: #60a5fa;
+            padding: 2px 10px;
+            border-radius: 6px;
+            font-size: 0.7rem;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        .experience-border {
+            position: relative;
+        }
+        .experience-border::before {
+            content: '';
+            position: absolute;
+            left: -2px;
+            top: 0;
+            height: 100%;
+            width: 4px;
+            background: linear-gradient(to bottom, #3b82f6, #a78bfa, transparent);
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="fixed w-full z-[100] glass-card border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-2xl font-black tracking-tighter uppercase">HD<span class="text-blue-500">.</span></span>
+            <div class="hidden md:flex items-center space-x-8 text-xs font-bold uppercase tracking-widest">
+                <a href="#experience" class="hover:text-blue-400 transition-colors">Experience</a>
+                <a href="#skills" class="hover:text-blue-400 transition-colors">Stack</a>
+                <a href="#education" class="hover:text-blue-400 transition-colors">Education</a>
+                <a href="mailto:harshdeshmukh9915@gmail.com" class="bg-white text-black px-5 py-2.5 rounded-full hover:bg-blue-500 hover:text-white transition-all font-extrabold">Hire Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative min-h-screen flex items-center justify-center pt-20 hero-gradient overflow-hidden">
+        <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+            <div class="inline-flex items-center space-x-2 bg-blue-500/10 border border-blue-500/20 px-4 py-2 rounded-full mb-8">
+                <span class="relative flex h-2 w-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                </span>
+                <span class="text-blue-400 text-xs font-bold tracking-widest uppercase">Available for Innovation</span>
+            </div>
+            
+            <h1 class="text-6xl md:text-9xl font-black mb-4 tracking-tighter leading-none text-white">
+                HARSH <span class="gradient-text">DESHMUKH</span>
+            </h1>
+            <h2 class="text-xl md:text-2xl font-medium text-slate-300 mb-10 max-w-3xl mx-auto leading-relaxed">
+                <span class="text-white font-bold">AI Engineer</span> specializing in Agentic Workflows & Cloud-Native Architectures. 
+                Shipping software that scales from <span class="italic">idea to impact</span>.
+            </h2>
+            
+            <div class="flex flex-row items-center justify-center gap-6">
+                <a href="mailto:harshdeshmukh9915@gmail.com" class="bg-blue-600 hover:bg-blue-500 px-10 py-5 rounded-2xl font-black text-lg shadow-2xl transition-all">
+                    Let's Connect
+                </a>
+                <div class="flex gap-4">
+                    <a href="https://github.com/harshdeshmukhcs" target="_blank" class="glass-card w-16 h-16 flex items-center justify-center rounded-2xl hover:border-blue-500 transition-all">
+                        <i class="fab fa-github text-3xl"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/harshdeshmukhcs" target="_blank" class="glass-card w-16 h-16 flex items-center justify-center rounded-2xl hover:border-blue-500 transition-all">
+                        <i class="fab fa-linkedin text-3xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="experience" class="py-32 px-6 max-w-6xl mx-auto">
+        <h2 class="text-5xl font-black mb-20 tracking-tighter italic">PROFESSIONAL <span class="text-blue-500">CHRONICLE</span></h2>
+        
+        <div class="space-y-16">
+            
+            <div class="experience-border pl-8 md:pl-12">
+                <div class="flex flex-wrap justify-between items-start mb-6">
+                    <div>
+                        <h3 class="text-3xl font-extrabold text-white">AI Frontend Engineer</h3>
+                        <p class="text-blue-400 font-bold text-lg">Objects On Net, Inc. <span class="text-slate-500 font-normal ml-2">| Apr 2025 – Present</span></p>
+                    </div>
+                    <div class="flex gap-2 mt-4 md:mt-0">
+                        <span class="metric-badge">AI Agents</span>
+                        <span class="metric-badge">React Native</span>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="md:col-span-2 space-y-4 text-slate-400">
+                        <p>Leading the development of a <span class="text-white">React Native + Expo</span> ecosystem for educational platforms, integrating <span class="text-white">Zustand</span> for seamless state sync between dashboards.</p>
+                        <p>Architected an <span class="text-white">Agentic Troubleshooting Layer</span> using LangChain and OpenAI GPT, reducing manual triage requirements by <span class="text-blue-400 font-bold">30%</span>.</p>
+                        <p>Built FastAPI services with PostgreSQL handling live telemetry data for network monitoring.</p>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl text-center flex flex-col justify-center">
+                        <span class="text-4xl font-black text-blue-500 mb-2">30%</span>
+                        <p class="text-xs uppercase font-bold tracking-widest text-slate-500">Manual Effort Reduction</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-border pl-8 md:pl-12">
+                <div class="flex flex-wrap justify-between items-start mb-6">
+                    <div>
+                        <h3 class="text-3xl font-extrabold text-white">Database & Systems Manager</h3>
+                        <p class="text-purple-400 font-bold text-lg">Bunchful Enterprise <span class="text-slate-500 font-normal ml-2">| Jan 2025 – Apr 2025</span></p>
+                    </div>
+                    <div class="flex gap-2 mt-4 md:mt-0">
+                        <span class="metric-badge">Kubernetes</span>
+                        <span class="metric-badge">CI/CD</span>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="md:col-span-2 space-y-4 text-slate-400">
+                        <p>Spearheaded <span class="text-white">CI/CD orchestration</span> using Jenkins, Docker, and GitHub Actions, which slashed deployment latency by <span class="text-purple-400 font-bold">60%</span>.</p>
+                        <p>Deployed Kubernetes micro-pods on VMWare for horizontal scaling and high availability.</p>
+                        <p>Integrated <span class="text-white">HashiCorp Vault</span> for secure credential rotation across production clusters.</p>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl text-center flex flex-col justify-center border-purple-500/20">
+                        <span class="text-4xl font-black text-purple-500 mb-2">60%</span>
+                        <p class="text-xs uppercase font-bold tracking-widest text-slate-500">Latency Reduction</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-border pl-8 md:pl-12">
+                <div class="flex flex-wrap justify-between items-start mb-6">
+                    <div>
+                        <h3 class="text-3xl font-extrabold text-white">Junior Data Engineer</h3>
+                        <p class="text-slate-400 font-bold text-lg">Tata Consultancy Services <span class="text-slate-600 font-normal ml-2">| Dec 2021 – Mar 2022</span></p>
+                    </div>
+                </div>
+                <div class="space-y-4 text-slate-400 max-w-4xl">
+                    <p>Optimized server-side concurrency via <span class="text-white">async job queuing</span>, raising system throughput by 12%.</p>
+                    <p>Engineered automation frameworks for RESTful API orchestration and schema validation modules in <span class="text-white">TypeScript</span>.</p>
+                </div>
+            </div>
+
+            <div class="experience-border pl-8 md:pl-12">
+                <div class="flex flex-wrap justify-between items-start mb-6">
+                    <div>
+                        <h3 class="text-3xl font-extrabold text-white">Full Stack Developer</h3>
+                        <p class="text-slate-400 font-bold text-lg">Sources and Solutions of Elevators <span class="text-slate-600 font-normal ml-2">| Jun 2019 – Jun 2021</span></p>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="md:col-span-2 space-y-4 text-slate-400">
+                        <p>Overhauled legacy static pages into a modular architecture using <span class="text-white">HTML5/CSS3/JavaScript</span>, improving mobile Lighthouse scores by <span class="text-green-400 font-bold">22%</span>.</p>
+                        <p>Developed Python-based SEO pipelines that drove an <span class="text-white font-bold">18% increase</span> in organic traffic within 6 months.</p>
+                        <p>Built PostgreSQL-backed analytics APIs feeding structured data into <span class="text-white">Tableau</span> for business intelligence.</p>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl text-center flex flex-col justify-center border-green-500/20">
+                        <span class="text-4xl font-black text-green-500 mb-2">22%</span>
+                        <p class="text-xs uppercase font-bold tracking-widest text-slate-500">Performance Gain</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="py-24 bg-slate-900/20">
+        <div class="max-w-6xl mx-auto px-6">
+            <h3 class="text-blue-500 font-black uppercase tracking-widest mb-16 text-center text-sm">Technical Ecosystem</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                <div class="glass-card p-6 rounded-2xl text-center font-bold">React / Native</div>
+                <div class="glass-card p-6 rounded-2xl text-center font-bold">Python</div>
+                <div class="glass-card p-6 rounded-2xl text-center font-bold">FastAPI</div>
+                <div class="glass-card p-6 rounded-2xl text-center font-bold">PostgreSQL</div>
+                <div class="glass-card p-6 rounded-2xl text-center font-bold">Docker</div>
+                <div class="glass-card p-6 rounded-2xl text-center font-bold">Kubernetes</div>
+                <div class="glass-card p-6 rounded-2xl text-center font-bold">LangChain</div>
+                <div class="glass-card p-6 rounded-2xl text-center font-bold">TypeScript</div>
+                <div class="glass-card p-6 rounded-2xl text-center font-bold">Azure</div>
+                <div class="glass-card p-6 rounded-2xl text-center font-bold">Jenkins</div>
+                <div class="glass-card p-6 rounded-2xl text-center font-bold">Tableau</div>
+                <div class="glass-card p-6 rounded-2xl text-center font-bold">Node.js</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-24 text-center border-t border-white/5 bg-slate-950">
+        <h2 class="text-3xl font-black mb-8 italic tracking-tighter">LET'S BUILD SOMETHING <span class="text-blue-500">AMBITIOUS</span></h2>
+        <a href="mailto:harshdeshmukh9915@gmail.com" class="text-2xl md:text-5xl font-black text-white hover:text-blue-400 transition-all break-all px-6">
+            harshdeshmukh9915@gmail.com
+        </a>
+        <div class="mt-16 text-slate-700 text-[10px] font-mono tracking-widest uppercase">
+            Designed for Impact • Jersey City, NJ • 2026
+        </div>
+    </footer>
+
+</body>
+</html>
